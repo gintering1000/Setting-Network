@@ -1,0 +1,17 @@
+
+# portmap
+portmap_enable="YES"
+
+# rpcbind
+rpcbind_enable="YES"
+rpc_lockd_enable="YES"
+rpc_statd_enable="YES"
+
+# mountd
+mountd_enable="YES"
+mountd_flags="-r"
+
+# nfsd
+nfs_server_enable="YES"
+nfsv4_server_enable="YES"
+nfs_server_flags="-t -n 4"
